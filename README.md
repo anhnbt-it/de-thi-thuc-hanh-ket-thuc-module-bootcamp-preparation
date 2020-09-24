@@ -1,8 +1,11 @@
 # ĐỀ THI THỰC HÀNH KẾT THÚC MODULE BOOTCAMPPREPARATION
 ## Bài làm
 **Câu 1**: [Giải phương trình bậc nhất một ẩn](https://anhnbt-it.github.io/de-thi-thuc-hanh-ket-thuc-module-bootcamp-preparation/exercises-01-giai-phuong-trinh-bac-nhat.html)
+
 **Câu 2**: [Tìm vị trí của phần tử trong mảng](https://anhnbt-it.github.io/de-thi-thuc-hanh-ket-thuc-module-bootcamp-preparation/exercises-02-find-index-of-arrays.html)
+
 **Câu 3**: [Đếm số ký tự nguyên âm](https://anhnbt-it.github.io/de-thi-thuc-hanh-ket-thuc-module-bootcamp-preparation/exercises-03-letters-are-vowels.html)
+
 **Câu 4**: [Xây dựng lớp Animal](https://anhnbt-it.github.io/de-thi-thuc-hanh-ket-thuc-module-bootcamp-preparation/exercises-04-class-animal.html) - Mở console để hiển thị kết quả
 
 ## Đề bài

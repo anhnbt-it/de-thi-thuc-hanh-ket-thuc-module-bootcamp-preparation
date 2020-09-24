@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Animal</title>
+</head>
+<body>
+  <script>
+    function Animal(name, weight) {
+      this.name = name || "";
+      this.weight = weight || 0;
+
+      this.getName = function() {
+        return this.name;
+      }
+      this.setName = function(value) {
+        this.name = value;
+      }
+      this.getWeight = function() {
+        return this.weight;
+      }
+      this.setWeight = function(value) {
+        this.weight = value;
+      }
+      this.toString = function() {
+        return `Name: ${this.getName()}, Weight: ${this.getWeight()}`;
+      }
+
+    }
+
+    objAnimal1 = new Animal(); // Tạo đối tượng
+    objAnimal1.setName("Elephant"); // Đặt tên
+    objAnimal1.setWeight(45.6); // Đặt cân nặng
+    console.log(objAnimal1.toString()); // Hiển thị ra cửa sổ console tên và cân nặng 
+
+    objAnimal2 = new Animal("Mouse", 0.5); // Tạo đối tượng và truyền tham số cho hàm khởi tạo
+    console.log(objAnimal2.toString());
+  </script>
+</body>
+</html>

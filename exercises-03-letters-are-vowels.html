@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đếm số ký tự nguyên âm</title>
+</head>
+<body>
+  <script>
+    let str = prompt("Nhập vào một chuỗi bất kỳ", "Hello World!");
+    let stringToArray = Array.from(str.toLowerCase());
+    document.write(lettersAreVowels(stringToArray));
+
+    function lettersAreVowels(array) {
+      let counter = 0;
+      for (let element of array) {
+        if (element === 'a' || element === 'e' || element === 'o' || element === 'i' || element === 'u') {
+          counter++;
+        }
+      };
+      return (counter > 0) ? counter : false;
+    }
+  </script>
+</body>
+</html>

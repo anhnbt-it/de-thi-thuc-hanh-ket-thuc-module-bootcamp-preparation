@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tìm vị trí của phần tử trong mảng</title>
+</head>
+<body>
+  <script>
+    let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let number = parseInt(prompt("Enter a number between 1 and 10", Math.floor(Math.random() * 10)));
+    document.write(indexOfArrays(number, numberArray));
+
+    function indexOfArrays(num, arr) {
+      if (Number.isNaN(num) || num < 1 || num > 10) { // Correctly checking for Number
+        return "Error! Re-Enter a number between 1 and 10";
+      } else if (!Array.isArray(arr)) { // Correctly checking for Array
+        return "Error! Not an array";
+      } else {
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i] === num) {
+            return "Index of array " + arr.toString() + " is " + i;
+          }
+        }
+      }
+      return false;
+    }
+  </script>
+</body>
+</html>
